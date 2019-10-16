@@ -11,6 +11,4 @@ inputs:
 run:
   path: /bin/sh
   args:
-  - concourse-tutorials/lab-4.1/task_script.sh
-  params:
-    FILE_NAME: "((filetoexecute))"
+  - concourse-tutorials/lab-4.3/task_script.sh
